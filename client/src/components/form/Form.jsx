@@ -44,7 +44,7 @@ const Form = ({ currentId, setCurrentId }) => {
       title: "",
       message: "",
       tags: "",
-      selectedFile: "",
+      selectedFile: postData.selectedFile, // Keep the selected file value unchanged
     });
   };
 
